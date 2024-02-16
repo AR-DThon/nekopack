@@ -1,5 +1,5 @@
 {
-  "name": "CatUserbot",
+  "name": "سورس يوزربوت ديثون",
   "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
   "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
@@ -7,65 +7,55 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/TgCatUB/catuserbot",
+  "repository": "https://github.com/AR-DThon/DThon",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "give your name",
+      "description": "ضع اسمك الخاص بالتيليجرام هنا",
       "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "my.telegram.org ضع الاب ايدي الخاص بك مكون من 8 ارقام الذي استخرجته من هنا",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "my.telegram.org ضع الايبي هاش الذي استخرجته من هنا",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 stringsetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "هنا ضع كود التيرمكس أو كود البايروجرام الخاص بك",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
+      "description": "لا تغير هذه القيمة",
       "value": ".",
       "required": false
     },
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "لا تغير هذه القيمة",
       "value": "ANYTHING",
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
       "value": "",
       "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
+      "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة",
       "value": "",
       "required": false
     },
     "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "description": "المنطقة الزمنية من القارة الخاصة بك وعاصمة بلدك يجب أن يكون أول حرف كبير",
+      "value": "Asia/Baghdad",
       "required": false
     },
-    "EXTERNAL_REPO": {
-      "description": "To install external plugins. if you don't want, change value to 'False'",
-      "value": "True",
-      "required": false
-    },
-    "BADCAT": {
-      "description": "set 'True' to install 18+ plugins.",
-      "value": "False",
-      "required": false
-    }
   },
   "addons": [{
     "plan": "heroku-postgresql",
